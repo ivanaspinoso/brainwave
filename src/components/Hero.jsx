@@ -17,9 +17,9 @@ const Hero = () => {
       id="hero"
     >
       <div className="container relative" ref={parallaxRef}>
-        <div className="relative z-1 max-w-[62rem] mx-auto text-center mb-[4rem] md:mb-20 lg:mb:[6rem]">
+        <div className="relative z-1 max-w-[62rem] mx-auto text-center mb-[4rem] md:mb-20 lg:mb:[6.25rem]">
           <h1 className="h1 mb-6">
-            Explore the Possibilites of AI Chatting with{" "}
+            Explore the Possibilites of &nbsp;AI&nbsp;Chatting with{" "}
             <span className="inline-block relative">
               Brainwave{" "}
               <img
@@ -77,6 +77,8 @@ const Hero = () => {
           <BackgroundCircles />
         </div>
       </div>
+
+      <BottomLine />
     </Section>
   );
 };
